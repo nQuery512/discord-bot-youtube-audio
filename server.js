@@ -8,7 +8,7 @@ var regex_str = "(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9
 var regex_url = new RegExp(regex_str);
 var opts = {
   maxResults: 5,
-  key: 'AIzaSyA33qetqZNY0N3HRGDRkBNzwJ9aZpbDIy8'
+  key: '##################################'
 };
 
 bot.on('ready', function () {
@@ -108,5 +108,5 @@ bot.on('message', message => {
   	}
 
 });
-var TOKEN = "NTkxOTUxMTU2MTg4NTQ1MDI1.XQ4VYg.P_GpCxZ9RM-agjHAw2iU0WhPzbM";
+var TOKEN = "######################################"";
 bot.login(TOKEN);
