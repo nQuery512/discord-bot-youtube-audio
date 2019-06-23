@@ -8,7 +8,7 @@ var regex_str = "(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9
 var regex_url = new RegExp(regex_str);
 var opts = {
   maxResults: 5,
-  key: YOUTUBE_API_KEY
+  key: process.env.YOUTUBE_API_KEY
 };
 
 // Lancement du serveur
@@ -133,5 +133,5 @@ bot.on('message', message => {
 	  	}
 	}
 });
-var TOKEN = DISCORD_BOT_API_KEY;
+var TOKEN = process.env.DISCORD_BOT_API_KEY;
 bot.login(TOKEN);
