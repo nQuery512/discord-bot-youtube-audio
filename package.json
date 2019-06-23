@@ -1,0 +1,26 @@
+{
+
+  "name": "discord-bot-audio-youtube-stream",
+
+  "description": "Bot for discord that allow to manage recrutment on Discord and play music from Youtube",
+
+  "version": "0.3.1",
+
+  "main": "server.js",
+
+  "scripts": {
+
+    "start": "node server.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "11.5.1",
+    "axios": "0.18.1",
+    "xml2js": "0.2.8",
+    "youtube-search": "1.1.4",
+    "youtube-audio-stream": "0.3.1"
+
+  }
+}
