@@ -21,7 +21,7 @@ bot.on("guildMemberAdd", (member) =>
 {
 	//console.log(member);
 	console.log("\n"+member.user.username);
-	member.send("Bienvenue "+ member.user.username+" sur le Discord de la guilde The Iron Flesh !!\n Si tu souhaite nous rejoindre je t'invite à prendre connaissance du contenu des channels #Règle et #Recrutement");
+	member.send("Bienvenue "+ member.user.username+" sur le Discord de la guilde  !!\n Si tu souhaite nous rejoindre je t'invite à prendre connaissance du contenu des channels #Règle et #Recrutement");
 });
 
 // Gestion des messages
